@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+</head>
+
+<body>
+    <STYLE>
+        div.form{
+            text-align: center;
+            padding-top: 235px;
+            padding-bottom: 200 px;
+            padding-left: 150px;
+            padding-right:150px ;
+            font-size: larger;
+            margin-inline: 250px;
+            font-family:fantasy;
+            color: goldenrod;
+        }
+        BODY{
+            background-image: url('profilebg.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            backface-visibility: hidden;
+    }
+    div.button4{
+        position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding:15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(73, 49, 150);
+    background: transparent;
+    border: 2px solid rgb(46, 86, 228);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 0 goldenrod;
+    }div.button4:hover 
+   {
+    border-radius: 10px;
+    color:   goldenrod;
+    box-shadow: inset 0 -100 0 0 rgb(46, 86, 228);}
+    div.button4:active{
+    transform: scale(0.9);
+}
+
+a.link2:hover{
+    color:  goldenrod;
+}
+    </STYLE>
+    <div class="form">
+    <label>Name: </label><input type="text" placeholder="Enter a name" id="Name" required>
+    <br>
+    <br>
+    <label>Email: </label><input type="email" placeholder="@email.com" id="Email" required>
+    <br>
+    <br>
+    <label>contact No.: </label><input type="number" placeholder="10 Digits" id="Number" required>
+    <br>
+    <br>
+    <label for="Adress">Adress</label><textarea placeholder="Adress" id="text"></textarea>
+    <br>
+    <br>
+   <div class="button4" onclick="update()">_Update
+    <a class="link2"
+    href="C:\Users\ROSHAN\excller\Manegment project\Aarogyamproduct page.html">_</a>
+   </div>
+    </div>
+   <script src="project1.js"></script>
+</body>
+</html>

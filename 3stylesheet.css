@@ -1,0 +1,26 @@
+body{
+    background-image: url("product.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    
+    text-align:center;
+    
+    color: goldenrod;
+}
+h2 {
+    text-align: right;
+    padding: 10px;
+}
+div.p1{
+        text-align: left;
+        align-items: center;
+       color:black;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    display: flow-root;
+   
+    
+}
+

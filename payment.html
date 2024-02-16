@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="4stylesheet.css">
+
+</head>
+
+<body>
+    <h1>Payment Methode</h1>
+    <div>Chosse a Methode :<select class="Methode">
+            <option> Creadit Crad</option>
+            <option>debit card</option>
+
+        </select>
+        <br>
+        <br>
+        <lable for="card holder name">Enter card name</lable><input type="text" placeholder="Card holder name" required>
+        <br>
+        <br>
+        <lable for="card Number">Enter a Number</lable><input type="number" placeholder=" card number" required>
+        <br>
+        <br>
+        <lable for="MM/YY">Isue Date</lable><input type="date" placeholder="MM/YY" required>
+        <br>
+        <br>
+        <lable for="MM/YY">Exp. Date</lable><input type="date" placeholder="MM/YY" required>
+        <br>
+        <br>
+        <lable for="CVV Number">CVV No.</lable><input type="password" placeholder="CVV Number" required>
+        <br>
+        <br>
+        <lable for="UPI ID">UPI ID</lable> <input type="radio" id="UPI ID" value="on" name="Payment" required>
+        <a class="QR Code" href="C:\Users\ROSHAN\excller\Manegment project\QRcode.html">
+            <lable for="QR Code">QR Code</lable>
+            <input type="radio" id="QR Code" name="Payment">
+        </a>
+        <br>
+        <br>
+        <input type="text" placeholder="UPI ID">
+    </div>
+    <br>
+    <br>
+    <div class="button2" onclick="confirm()">
+        <a class="Thanku page" href="C:\Users\ROSHAN\excller\Manegment project\Thanku.html"> <input type="button"
+                value="submit"></a>
+                <script src="project1.js"></script>
+    </div>
+</body>
+</html>
